@@ -3,40 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Barbearia Alura</title>
+    <link rel="stylesheet" href="../page02/reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
 <header>
-    <h1 class="tituloprincipal">Barbearia Alura</h1>
+    <div class="caixa">
+        <h1><a href="../page02/produtos.html"><img src="../imagens/logo.png" alt="logo da barbearia alura"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="../page01/index.html">Home</a></li>
+                <li><a href="../page02/produtos.html">Produtos</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
-<div class="principal">
-    <img id="banner" src="imagens/banner.jpg">
 
-    <h2 class="centralizado">Sobre a Barbearia Alura</h2>
+<img class="banner" id="banner" src="imagens/banner.jpg">
 
-    <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o
-        seu
-        cabelo e
-        barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+<main>
+    <section class="principal">
 
-    <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
-        clientes".</strong></em>
-    </p>
+        <h2 class="titulo-pricipal">Sobre a Barbearia Alura</h2>
 
-    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de
-        excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-</div>
-<div class="beneficios">
-    <h3 class="centralizado">Beneficios</h3>
-    <ul>
-        <li class="itens">Atendimento aos clientes</li>
-        <li class="itens">Espaço diferenciado</li>
-        <li class="itens">Localização</li>
-        <li class="itens">Profissionais qualificados</li>
-    </ul>
-    
-    <img src="imagens/beneficios.jpg" class="imagenbeneficios">
+        <img class="utensilios" src="../imagens/utensilios.jpg" alt="Utensilios de um barbeiro">
+        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor
+            para o
+            seu
+            cabelo e
+            barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-</div>
+        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
+            clientes".</strong></em>
+        </p>
+
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de
+            excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    </section>
+
+    <section class="mapa">
+        <h3 class="titulo-pricipal">Nosso estabelecimento</h3>
+        <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.9575995060395!2d-46.522307500000004!3d-22.580689099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c93f8c16360a1f%3A0xac3ddbe4a7264b1f!2sR.%20Sidney%20Oliveira%2C%20184%2C%20Socorro%20-%20SP%2C%2013960-000!5e0!3m2!1spt-BR!2sbr!4v1641326445446!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="beneficios">
+        <h3 class="titulo-pricipal">Beneficios</h3>
+        <ul>
+            <li class="itens">Atendimento aos clientes</li>
+            <li class="itens">Espaço diferenciado</li>
+            <li class="itens">Localização</li>
+            <li class="itens">Profissionais qualificados</li>
+        </ul>
+
+        <img src="imagens/beneficios.jpg" class="imagenbeneficios">
+
+    </section>
+
+</main>
+
+<footer>
+    <img src="../imagens/logo-branco.png" alt="logo da barbearia alura">
+    <p class="copyright">&copy; Copyright Barbearia Alura 2019</p>
+</footer>
 </body>
 </html>

@@ -1,56 +1,146 @@
-/** BODY */
+
 body {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.tituloprincipal {
-    padding-left: 20px;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-.principal {
-    background: #cccc;
-    padding: 30px;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-#banner {
-    width: 100%;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
 }
 
 
-/**TITULO */
-.centralizado {
+footer {
     text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
 }
 
-/** TEXT */
-p {
-    text-align: center;
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
-#missao {
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
     font-size: 20px;
+    margin: 0 0 10px;
 }
 
-em strong {
-    color: red;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-.itens {
-    font-style: italic;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagenbeneficios {
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
 
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+/**
+css da pagina inicial
+ */
+.banner {
+    width: 100%;
+}
+
+.titulo-pricipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagenbeneficios {
+    width: 60%;
+}
+
+.utensilios {
+    width: 10%;
+    float: left;
+    margin: 0 20px 20px 0;
+}
