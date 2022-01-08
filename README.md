@@ -34,7 +34,7 @@
 
 <p align="center">
   <kbd>
-    <img style="border-radius: 5px" height="450" src="imagens/home.mp4" alt="Intro">
+    <img style="border-radius: 5px" height="450" src="https://youtu.be/C94ngUkAcLQ" alt="Intro">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
